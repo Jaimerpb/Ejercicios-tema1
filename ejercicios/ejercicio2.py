@@ -2,7 +2,7 @@
 class NumeroMagico():
     def __init__(self):
         self.numero_magico=12345679
-    
+    @staticmethod
     def multiplicar(self,numero_usuario):
         numero_usuario *= 9
         self.numero_magico *= numero_usuario

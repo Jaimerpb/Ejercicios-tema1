@@ -2,6 +2,7 @@ class Agregar:
     def __init__(self,lista,el):
         self.lista=lista
         self.el=el
+    @staticmethod 
     def agregar(self):
         if self.el in self.lista:
             raise ValueError("Error: Imposible añadir elementos duplicados => [elemento].")

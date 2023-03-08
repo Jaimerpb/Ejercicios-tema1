@@ -2,6 +2,7 @@ class Listas:
     def __init__(self,lista_1,lista_2):
         self.lista_1=lista_1
         self.lista_2=lista_2
+    @staticmethod
     def third_list(self):
         no_repetidos=[]
         for elemento in self.lista_1:

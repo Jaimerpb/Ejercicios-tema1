@@ -3,7 +3,7 @@ class Separador:
         self.lista=lista
         self.pares=[]
         self.impares=[]
-
+    @staticmethod
     def separar(self):
         for num in self.lista:
             if num%2==0:
